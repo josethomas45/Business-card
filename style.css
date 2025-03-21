@@ -6,8 +6,8 @@
 }
 
 body {
-    background: linear-gradient(135deg, #1a1a1a, #4a2c3d); 
-    font-family: 'Poppins', Arial, sans-serif; 
+    background: linear-gradient(135deg, #1a001a, #2d0a3d); 
+    font-family: 'Poppins', Arial, sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,26 +18,26 @@ body {
 .business-card {
     width: 600px;
     max-width: 100%;
-    background: linear-gradient(145deg, #590928, #2d0514); 
+    background: linear-gradient(145deg, #3c0d5c, #1a0026); 
     padding: 30px;
     border-radius: 15px;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); 
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5); 
     display: flex;
     align-items: center;
     transition: transform 0.3s ease;
 }
 
 .business-card:hover {
-    transform: translateY(-5px); 
+    transform: translateY(-5px);
 }
 
 .profile-picture {
     width: 180px;
     height: 180px;
-    border-radius: 50%; 
+    border-radius: 50%;
     overflow: hidden;
     margin-right: 30px;
-    border: 4px solid #fff; 
+    border: 4px solid #d4a5ff; 
 }
 
 .profile-picture img {
@@ -60,7 +60,7 @@ h1 {
 h2 {
     font-size: 16px;
     font-weight: 400;
-    color: #e0b8c8; 
+    color: #c68cff; 
     margin-bottom: 15px;
 }
 
@@ -72,7 +72,7 @@ h2 {
 
 .contact-details span {
     font-weight: 600;
-    color: #f5d6e0; 
+    color: #d4a5ff; 
     margin-right: 8px;
 }
 
@@ -81,7 +81,7 @@ h2 {
 }
 
 .social-links a {
-    color: #f5d6e0;
+    color: #c68cff; 
     text-decoration: none;
     font-size: 14px;
     margin-right: 10px;
@@ -89,7 +89,7 @@ h2 {
 }
 
 .social-links a:hover {
-    color: #fff; 
+    color: #e6ccff; 
 }
 
 @media (max-width: 768px) {
